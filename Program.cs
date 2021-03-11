@@ -6,11 +6,10 @@ namespace CodeStart
     {
         static void Main(string[] args)
         {
-            String name = "saleem";
-            int number = 123;
+            Console.Write("what is your name");
+            string name = Console.ReadLine();
+            Console.WriteLine("hi"+name);
 
-            Console.WriteLine("my name is " + name + number);
-         
             Console.ReadLine();
         }
     }
